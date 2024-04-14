@@ -6,3 +6,4 @@ create database use_adminer;
 FLUSH PRIVILEGES;
 exit;
 
+http://your_server_ip/adminer.php
