@@ -1,5 +1,5 @@
-sudo apt install mysql-server
-sudo mysqlMySQL
+sudo apt install mysql-server  -y
+sudo mysql
 CREATE USER 'adminer'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON database_name.* TO 'adminer'@'localhost';
 create database use_adminer;
